@@ -1,0 +1,4 @@
+google-cloud-spanner
+fastapi[standard]
+aiohttp
+google-cloud-bigquery
