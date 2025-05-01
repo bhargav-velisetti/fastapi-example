@@ -5,7 +5,7 @@ import time
 from memory_profiler import profile
 from fastapi import FastAPI
 from pydantic import BaseModel
-from spanner_util import upsert_spanner_async
+from util import upsert_spanner_async
 
 project = os.getenv('project') 
 instance = os.getenv('instance')
